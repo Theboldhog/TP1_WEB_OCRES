@@ -4,3 +4,22 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
 }
+
+.InfoPrin{
+    height: 250px;
+}
+
+.Photo{
+    float : left;
+    text-align: center;
+}
+
+.Info{
+    float : right;
+    text-align: center;
+}
+
+.Name{
+    margin-top: 50px;
+    font-size: x-large;
+}
