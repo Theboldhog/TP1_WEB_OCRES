@@ -1,5 +1,5 @@
 .CV{
-    width: 700px;
+    width: 750px;
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
@@ -20,6 +20,30 @@
 }
 
 .Name{
-    margin-top: 50px;
+    margin-top : 50px;
+    font-size : x-large;
+}
+
+.InfoScnd{
+}
+
+.Text{
+    float : left;
+}
+
+.Form{
+
+}
+
+.Tittle{
+    text-align : center;
     font-size: x-large;
+}
+
+.Side{
+    margin-left: 450px;
+}
+
+.colorB2{
+    color : #68b99e;
 }
