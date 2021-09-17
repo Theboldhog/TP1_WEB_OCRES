@@ -1,29 +1,38 @@
+/*DIV 1*/
+body{
+    background-color: lightgray;
+    animation-name: example;
+    animation-duration: 15s;
+    /*animation-iteration-count: infinite;*/
+}
 .CV{
     width: 750px;
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
+    
 }
 
+/*DIV 2*/
 .InfoPrin{
     height: 250px;
 }
 
+/*DIV 3*/
 .Photo{
     float : left;
     text-align: center;
 }
 
+/*DIV 4*/
 .Info{
     float : right;
     text-align: center;
-}
-
-.Name{
     margin-top : 50px;
-    font-size : x-large;
+
 }
 
+/*DIV 5*/
 .InfoScnd{
     display : grid;
     grid-template-columns: 500px 250px;
@@ -31,24 +40,26 @@
     float: left;
 }
 
+/*DIV 6*/
 .TextAlign{
     text-align: center;
 }
 
+/*Name mouvement*/
+.Name{
+    font-size: x-large;
+}
+
+/*LABEL*/
 .TextJust{
     text-align: justify;
 }
 
+/*SPAN*/
 .colorB2{
     color : #68b99e;
 }
 
-/*
-.Text{
-    float : left;
-}
-
-.Side{
-    margin-left: 450px;
-}
-*/
+@keyframes example {
+    from {background-color: #68b99e;}
+    to {background-color: lightgray;}
