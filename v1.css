@@ -31,17 +31,21 @@
     float : left;
 }
 
-.Form{
-
-}
-
 .Tittle{
     text-align : center;
     font-size: x-large;
 }
 
+.SubTittle{
+    font-size: large;
+}
+
 .Side{
     margin-left: 450px;
+}
+
+.ParaSide{
+    text-align: center;
 }
 
 .colorB2{
