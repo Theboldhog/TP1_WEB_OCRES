@@ -25,29 +25,30 @@
 }
 
 .InfoScnd{
+    display : grid;
+    grid-template-columns: 500px 250px;
+    justify-content: space-between;
+    float: left;
 }
 
-.Text{
-    float : left;
-}
-
-.Tittle{
-    text-align : center;
-    font-size: x-large;
-}
-
-.SubTittle{
-    font-size: large;
-}
-
-.Side{
-    margin-left: 450px;
-}
-
-.ParaSide{
+.TextAlign{
     text-align: center;
+}
+
+.TextJust{
+    text-align: justify;
 }
 
 .colorB2{
     color : #68b99e;
 }
+
+/*
+.Text{
+    float : left;
+}
+
+.Side{
+    margin-left: 450px;
+}
+*/
