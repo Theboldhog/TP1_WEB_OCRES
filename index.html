@@ -4,28 +4,31 @@
         <title>CV de Clément Constantin</title>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="v1.css"/>
-        <a href="http://urlr.me/k64r8">Linkedin</a> -
-        <a href="https://cutt.ly/uEyNj6L">GitHub</a> -
-        <a href="https://cutt.ly/5EyB218">Instagram</a>
+       
 
     </head>
-    
 
     <body>
        <div class = "CV">
+        <a href="http://urlr.me/k64r8">Linkedin</a> -
+        <a href="https://cutt.ly/uEyNj6L">GitHub</a>
+        <!--Ajouter un projet web, un lien youtube vers une video promo, ...-->
            <div class = "InfoPrin">
                <div class = "Photo">
                    <img src ="clement.jpg" alt = "Photo Clément Constantin"/>
-                   <p>21 ans, permis B</p>
+                   <!--Mettre photo + pro -->
+                   <p>22 ans, permis B</p>
                </div>
                <div class = "Info">
                    <p>
                        <h2>Clément Constantin</h2>
                         Recherche un job étudiant</br>
                         Disponible à partir du 01/01/2021 jusqu'au 01/01/2022</br>
+                        <!--A changer en fonction du type de recherche et des dispo-->
                     </p>
-                </div>                
+                </div>             
             </div> 
+                        
             <div class = "InfoScnd">
                 <label class = "Text">
                     <label class = "TextAlign">
@@ -53,8 +56,10 @@
                             7 au 11 juillet 2014 <strong><span class = "colorB2">Les Vignerons Catalans – Perpignan 66</span></strong>​​</br>
                             Stage découverte : Stage en œnologie, découverte du métier d'œnologue,​ préparation d'un salon d'œnologie, étiquetage de bouteilles​
                         </p>
+                        <!--CV pas à jour - ancien CV de l'année dernière fait pour la recherche de stage -->
                     </label>
                     <label class = "TextAlign">
+                        <br><br>
                         <h2>FORMATION</h2>
                     </label>
                     <label class = "TextJust">
@@ -71,12 +76,19 @@
                 </label>
                 <label class ="TextAlign">
                     <h2>CONTACT</h2>
+                    <form action="contact" method="post">
+                            <label for="name">Nom :</label></br>
+                            <input type="text" id="name" name="user_name"></br>
+                            <label for="mail">Mail :</label></br>
+                            <input type="email" id="mail" name="user_mail"></br>
+                            <label for="msg">Message :</label></br>
+                            <textarea id="msg" name="user_message"></textarea></br>
+                    </form>
+                    <button>Envoyer</button>
                     <p> 
                         Tel : 06 40 90 34 90</br>
                         <a href="mailto:clement.constantin@edu.ece.fr">Mail</a> : clement.constantin@edu.ece.fr</br>
                         <a href="https://cutt.ly/UEyWaWZ">Adresse</a> : 15 allée des glaïeuls, 78300 Poissy</br>
-                        <textarea>Ecrivez votre message</textarea></br>
-                        <button> Mail</button>
                     </p>
                     
                     <h2>COMPETENCES</h2>
@@ -99,7 +111,11 @@
                             Natation & triathlon en compétition, niveau régional​</br>
                         Bricolage & DIY​</br>
                         Monde associatif, présidence du BDE & de la semaine d'accueil​</br>
+                        L'Histoire de France
                     </p> 
+                    <iframe width="250" height="140" src="https://www.youtube.com/embed/C5kt9QX0lrc">
+                    </iframe>
+                    <!--A changer : video en fonction du centre d'intérêt + taille en fonction du format, ici exemple fun + 560/315 -->
                 </label>
             </div>
         </div>
